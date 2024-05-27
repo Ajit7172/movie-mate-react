@@ -1,0 +1,35 @@
+* {
+    color:white;
+    background-color: black;
+}
+
+.tableCss {
+    text-align: center;
+}
+
+#ajit {
+    color:red;
+}
+
+.ajit {
+    color:yellow;
+}
+
+#divR {
+    color:red;
+}
+#spanR {
+    color:yellow;
+}
+
+.parent {
+    font-size:2rem;
+}
+
+.outer {
+    font-size: 2rem;
+}
+
+.inner {
+    font-size: 2rem;
+}
