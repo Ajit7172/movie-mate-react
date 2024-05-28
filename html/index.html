@@ -9,22 +9,27 @@
     rel="icon"
     href="https://atlas-content-cdn.pixelsquid.com/stock-images/8-bit-mario-mdaWkw1-600.jpg"
     />
-   <!-- whole website css -->
-   <link rel="stylesheet" href="index.css"/>
-</head>
-<body>
-   <a href="https://google.com" target="blank">link</a>
-   <!-- 
-       HTML Form
-       input type
-       text
-       radio
-       checkbox
-       date
-       select
-       password 
-    -->
-
-   
+  </head>
+  <body>
+     <form onsubmit="formSubmission();return false;" id="contactForm"> 
+      <label>Full Name</label>
+      <input name="name" placeholder="John Doe"  />
+      <br/>
+      <label>Email</label>
+      <input type="email" name="email" placeholder="John@doe.com"  />
+      <br/>
+      <label>Choose your country</label>
+      <select name="country" >
+        <option value="">Select your country</option>
+        <option value="nepal">Nepal</option>
+        <option value="india">India</option>
+      </select>
+    <br/>
+    <textarea rows="10" cols="100" name="msg"></textarea>
+    <button type="submit">Submit</button> 
+    <button type="reset">Reset</button>
+    </form>
+    <div class="systemMsg"></div>
+    <script src="index.js"></script>
   </body>
 </html>
