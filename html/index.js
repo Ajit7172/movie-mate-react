@@ -158,7 +158,7 @@ const slug = (text)=>{
   return ''
 };
 
-slug("The Cattle for the cry of $$$")
+slug("The Cattle for the cry of $$$");
 
 
 
