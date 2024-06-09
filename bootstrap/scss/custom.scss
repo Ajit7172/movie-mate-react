@@ -1,0 +1,18 @@
+$primary: #129a69;
+$client: #7042e6;
+$min-contrast-ratio: 3 !default;
+
+$custom-colors: (
+    "custom": $client,
+);
+
+$theme-colors: (
+    "primary": $primary,
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// BELOW IMPORT ADD NEW SCSS CODES
