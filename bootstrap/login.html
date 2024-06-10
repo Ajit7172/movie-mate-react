@@ -17,11 +17,11 @@
   <!-- Layout -->
     <div class="flex d-flex justify-content-center align-items-center vh-100">
       <!-- component -->
-    <div class="card shadow-lg p-3 mb-5" style="width: 450px">
+    <div class="card shadow-lg mb-5" style="width: 450px">
         <div class="card-body">
           <div class="text-center">
             <img 
-            src="logo.png" 
+            src="logo.pngssss" 
             class="img-fluid" 
             alt="Movie Mate logo"
             onerror="this.src=`logo.png`"  
@@ -31,36 +31,31 @@
             <h1 class="text-center">Login</h1>
             <form>
                 <div class="mb-3">
-                  <label class="form-label"
-                  >Email address</label
-                  >
-                  <input 
-                  type="email"
-                  class="form-control" 
-                  id="exampleInputEmail1" 
-                  aria-describedby="emailHelp"
-                  />
-                  <div id="emailHelp" class="form-text">
-                 
-                  </div>
+                  <label class="form-label">Email address</label>
+                  <input type="email" class="form-control" />
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input
-                   type="checkbox" 
-                   class="form-check-input" 
-                   id="exampleCheck1"
-                   />
-                  <label class="form-check-label" for="exampleCheck1"
-                  >Forget Password?</div>
+                  <label class="form-label">Password</label>
+                  <input type="password" class="form-control" />
+                  <a 
+                  class="flex d-flex flex-row-reverse"
+                  href="/bootstrap/forget-password.html"
+                  style="text-decoration: none; cursor: pointer"
+                  >Forget Password?</a
                   >
-                </div>
+                  </div>
+                
                 <button type="submit" class="btn btn-primary" >Submit</button>
-                <button type="submit" class="btn btn-custom" >Submit</button>
               </form>
+        </div>
+        <hr/>
+      <div class="text-center mb-2">    
+          <a 
+          class="flex" 
+          style="text-decoration: none; cursor: pointer"
+          href="/bootstrap/register.html"
+          >Register</a
+          >
         </div>
       </div>
     </div>
